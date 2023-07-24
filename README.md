@@ -1,2 +1,1 @@
-# next-tutorial
-[nextjs learn](https://nextjs.org/learn/foundations/about-nextjs)
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
