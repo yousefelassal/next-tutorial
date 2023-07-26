@@ -25,3 +25,7 @@ export async function getAllPostIds() {
   });
 }
 ```
+
+### Fallback
+
+If fallback is false, then any paths not returned by `getStaticPaths` will result in a 404 page.
