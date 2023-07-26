@@ -29,3 +29,13 @@ export async function getAllPostIds() {
 ### Fallback
 
 If fallback is false, then any paths not returned by `getStaticPaths` will result in a 404 page.
+
+### 404 Pages
+To create a custom 404 page, create `pages/404.js`. This file is statically generated at build time.
+```js
+// pages/404.js
+export default function Custom404() {
+  return <h1>404 - Page Not Found</h1>;
+}
+```
+[Error Pages documentation](https://nextjs.org/docs/advanced-features/custom-error-page)
